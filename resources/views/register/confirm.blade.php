@@ -34,12 +34,13 @@
                         @csrf
                         <div class="email" style="display: flex;margin: 0 auto;">
                             <p>Email</p>
-
+                            <input type="hidden" name="email" value="{{$email}}">
                             {{ $email }}
                         </div>
                         <div class="email" style="display: flex;margin: 0 auto;">
                         <p>Password</p>
                             {{ $password }}
+                            <input type="hidden" name="password" value="{{$password}}" >
                         </div>
                         <input type="submit" name="submit" value="登録する">
                     </form>

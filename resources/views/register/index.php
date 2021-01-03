@@ -31,7 +31,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravelあ
                 </div>
 
                 <div class="links">

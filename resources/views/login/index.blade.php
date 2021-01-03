@@ -27,7 +27,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Member Register
+                    Member Login
                 </div>
                 <div class="m-b-md">
                     <form method="post" action="/confirm">
@@ -38,13 +38,6 @@
                              {{$errors->first('email')}}
                             @endif
                             <input type="email" name="email" value="{{old('email')}}">
-                        </div>
-                        <div class="email_verify" style="display: flex;margin: 0 auto;">
-                            <p>Email Verify</p>
-                            @if($errors->has('email_verify'))
-                             {{$errors->first('email_verify')}}
-                            @endif
-                            <input type="email" name="email_verify" value="{{old('email_verify')}}">
                         </div>
                         <div class="password" style="display: flex;margin: 0 auto;">
                             <p>Password</p>
