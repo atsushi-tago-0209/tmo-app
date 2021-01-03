@@ -39,6 +39,7 @@
                         
                     </form> -->
                     <a href="/register">会員登録</a>
+                    <a href="/login">ログイン</a>
                 </div>
 
             </div>
